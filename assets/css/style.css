@@ -99,19 +99,20 @@ h3 {
 }
 
 #hero {
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 .hero-text {
     width: 360px;
     height: 220px;
-    bottom: 30px;
+    bottom: 60px;
     right: 180px;
     padding: 40px 0 0 10px;
     animation: moveInRight 1s ease-out;
     letter-spacing: 2px;
     position: absolute;
 }
+
 /*----------------------------------Dark Background */
 .bg-dark {
     color: #ECECEB;
@@ -183,6 +184,7 @@ h3 {
         display: block;
         padding: 4px 0 4px 0;
     }
+
     .parallax {
         background-attachment: scroll;
     }
