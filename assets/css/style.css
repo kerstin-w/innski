@@ -79,16 +79,39 @@ h3 {
     color: #F9A828;
 }
 
+/*Hero Banner*/
+#hero {
+    
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("assets/images/parallax.webp");
+    /* Set a specific height */
+    min-height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1030px) {
     .navbar {
         justify-content: center;
     }
+
     .nav-menu {
         margin: 5px 0px 5px 15px;
         line-height: 25px;
     }
+
     .nav-item {
         display: block;
         padding: 4px 0 4px 0;
@@ -97,9 +120,10 @@ h3 {
 
 @media screen and (max-width: 375px) {
     .logo {
-        margin-right: 20px; 
+        margin-right: 20px;
     }
+
     .logo-img {
-    min-width: 40vw;
-}
+        min-width: 40vw;
+    }
 }
