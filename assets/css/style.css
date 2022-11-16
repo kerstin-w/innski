@@ -48,12 +48,12 @@ h3 {
     margin-left: 20px;
 }
 
-.logo img {
+.logo-img {
     max-width: 80%;
 }
 
 .nav-menu {
-    padding-right: 30px;
+    padding: 5px 30px 5px 0;
     color: #ECECEB;
 }
 
@@ -77,4 +77,29 @@ h3 {
 
 .nav-menu a:hover {
     color: #F9A828;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1030px) {
+    .navbar {
+        justify-content: center;
+    }
+    .nav-menu {
+        margin: 5px 0px 5px 15px;
+        line-height: 25px;
+    }
+    .nav-item {
+        display: block;
+        padding: 4px 0 4px 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin-right: 20px; 
+    }
+    .logo-img {
+    min-width: 40vw;
+}
 }
