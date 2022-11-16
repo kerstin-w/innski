@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
+/* Default styling */
 * {
     margin: 0;
     padding: 0;
@@ -80,15 +81,12 @@ h3 {
 }
 
 /*Hero Banner*/
-#hero {
-    
-}
 
 .parallax {
     /* The image used */
-    background-image: url("assets/images/parallax.webp");
+    background-image: url("../images/parallax.webp");
     /* Set a specific height */
-    min-height: 50vh;
+
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -100,7 +98,76 @@ h3 {
     background-size: cover;
 }
 
+#hero {
+    min-height: 50vh;
+}
+
+.hero-text {
+    width: 360px;
+    height: 220px;
+    bottom: 30px;
+    right: 180px;
+    padding: 40px 0 0 10px;
+    animation: moveInRight 1s ease-out;
+    letter-spacing: 2px;
+    position: absolute;
+}
+/*----------------------------------Dark Background */
+.bg-dark {
+    color: #ECECEB;
+    background-color: rgba(46, 56, 63, .7);
+    border-radius: 20px;
+}
+
+.hero-text>h2 {
+    font-size: 110%;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #2E383F;
+    background-color: rgb(249, 168, 40);
+    border: #2E383F solid 2px;
+    border-radius: 100px;
+    padding: 8px 17px;
+}
+
+.button:hover {
+    color: #ECECEB;
+    background-color: #2E383F;
+    border: #ECECEB solid 2px;
+}
+
 /* Media Queries */
+
+/*Mobile */
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin-right: 20px;
+    }
+
+    .logo-img {
+        min-width: 40vw;
+    }
+}
+
+/*Tablets*/
+
+@media screen and (max-width: 600px) {
+    .hero-text {
+        left: 1%;
+    }
+}
+
+/*Laptops*/
 
 @media screen and (max-width: 1030px) {
     .navbar {
@@ -116,14 +183,25 @@ h3 {
         display: block;
         padding: 4px 0 4px 0;
     }
+    .parallax {
+        background-attachment: scroll;
+    }
 }
 
-@media screen and (max-width: 375px) {
-    .logo {
-        margin-right: 20px;
+
+/* Animations */
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
     }
 
-    .logo-img {
-        min-width: 40vw;
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
     }
 }
