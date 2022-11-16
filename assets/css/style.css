@@ -16,3 +16,65 @@ body {
     color: #2E383F;
     font-size: 110%;
 }
+
+h1,
+h2,
+h3 {
+    font-family: Epilogue, sans-serif;
+    letter-spacing: 7px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+    font-size: 200%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    /*
+    justify-content: flex-end;
+    */
+    align-items: center;
+    background-color: #2E383F;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 80%;
+}
+
+.nav-menu {
+    padding-right: 30px;
+    color: #ECECEB;
+}
+
+.nav-item {
+    margin-right: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.nav-menu .active {
+    color: #F9A828;
+}
+
+.nav-menu a:hover {
+    color: #F9A828;
+}
