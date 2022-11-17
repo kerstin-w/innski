@@ -250,7 +250,7 @@ p {
 .location-outer {
     text-align: center;
     margin: 9rem auto 9rem;
-    width: 75vw;
+    width: 80vw;
 }
 
 .locations-primary-text {
@@ -261,7 +261,7 @@ p {
 .location-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .location-inner {
@@ -269,13 +269,14 @@ p {
     border: #ECECEB .2rem solid;
     border-radius: 2rem;
     text-align: left;
-    margin: 4rem;
+    margin: 2rem;
     background-color: rgba(46, 56, 63, .74);
     animation: moveInRight 1s ease-out;
 }
 
 .location-img {
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .location-img>img {
@@ -320,12 +321,17 @@ p {
 /* Media Queries */
 
 /*Mobile */
-
+@media screen and (max-width: 425px) {
+.location-outer {
+    width: 100%;
+}
+}
 @media screen and (max-width: 375px) {
-    .padding {
-        padding: 2rem;
+    html {   
+        font-size: 50%;
     }
 
+    /*
     .logo {
         margin-right: 1rem;
     }
@@ -333,6 +339,7 @@ p {
     .logo-img {
         min-width: 40vw;
     }
+    */
 }
 
 /*Tablets*/
@@ -349,7 +356,6 @@ p {
 
     .nav-item {
         display: block;
-        /*padding: .4rem 0 .4rem 0;*/
     }
 
     .parallax {
@@ -371,6 +377,18 @@ p {
 
     .expect-container {
         flex-direction: column;
+    }
+
+    .locations-primary-text {
+        width: auto;
+    }
+    .location-container {
+        justify-content: center;
+    }
+
+    .location-inner {
+        width: 80vw;
+        margin: 2rem;
     }
 }
 
