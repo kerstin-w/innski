@@ -107,6 +107,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax-small {
+    min-height: 30vh;
+}
 
 #hero {
     min-height: 100vh;
