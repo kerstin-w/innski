@@ -20,16 +20,21 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Epilogue, sans-serif;
-    font-size: 3rem;
+    text-transform: uppercase;
     letter-spacing: .5rem;
     line-height: 1.5;
-    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 h2 {
-    font-weight: 700;
+    font-size: 3rem;
 }
 
 p {
@@ -38,6 +43,10 @@ p {
 
 .padding {
     padding: 4rem;
+}
+
+.heading-sub-page {
+    margin-bottom: 3rem;
 }
 
 /* Navigation Bar */
@@ -92,24 +101,22 @@ p {
 
 .parallax {
 
-    background: url("../images/parallax.webp") no-repeat fixed center;
+    background: url("../images/parallax.webp");
     background-size: cover;
     /* The image used */
-   
+
     /* Set a specific height */
 
     width: 100%;
     overflow: hidden;
     position: relative;
-   
+
     /* Create the parallax scrolling effect */
-     /*
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     background-image: url("../images/parallax.webp");*/
-    
+
 }
 
 .parallax-small {
@@ -220,13 +227,13 @@ p {
     padding-bottom: 3rem;
 }
 
-/* Gallery Section */ 
+/* Gallery Section */
 
 #gallery {
-        clear: both;
-        line-height: 0;
-        column-count: 3;
-        padding: 3rem;
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    padding: 3rem;
 }
 
 .gallery-img {
@@ -239,13 +246,43 @@ p {
 #location {
     background-image: url("../images/background2.jpg");
 }
+
 .location-outer {
     text-align: center;
-    margin: 0 auto; 
+    margin: 9rem auto 9rem;
+    width: 75vw;
 }
 
 .locations-primary-text {
-    
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-inner {
+    width: 33%;
+    border: #ECECEB .2rem solid;
+    border-radius: 2rem;
+    text-align: left;
+    margin: 4rem;
+    background-color: rgba(46, 56, 63, .74);
+    animation: moveInRight 1s ease-out;
+}
+
+.location-img {
+    text-align: center;
+}
+
+.location-img>img {
+    max-height: 150px;
+    width: auto;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
 }
 
 /* Footer */
@@ -256,6 +293,7 @@ p {
     color: #ECECEB;
     text-align: center;
 }
+
 .social-networks {
     list-style: none;
     display: flex;
@@ -286,7 +324,7 @@ p {
 @media screen and (max-width: 375px) {
     .padding {
         padding: 2rem;
-       }
+    }
 
     .logo {
         margin-right: 1rem;
