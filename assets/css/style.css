@@ -49,6 +49,13 @@ p {
     margin-bottom: 3rem;
 }
 
+.outer {
+    text-align: center;
+    margin: 9rem auto 9rem;
+    width: 80vw;
+}
+
+
 /* Navigation Bar */
 
 .navbar {
@@ -247,13 +254,8 @@ p {
     background-image: url("../images/background2.jpg");
 }
 
-.location-outer {
-    text-align: center;
-    margin: 9rem auto 9rem;
-    width: 80vw;
-}
 
-.locations-primary-text {
+.location-primary-text {
     width: 50vw;
     margin: 0 auto;
 }
@@ -284,6 +286,15 @@ p {
     width: auto;
     border-radius: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+
+/* Schedule Section */ 
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Footer */
