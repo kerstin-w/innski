@@ -225,6 +225,33 @@ p {
 
 /* Footer */
 
+#footer {
+    background-color: #2E383F;
+    width: auto;
+    color: #ECECEB;
+    text-align: center;
+}
+.social-networks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-networks li {
+    padding: 2rem 3rem 2rem;
+}
+
+.social-networks i {
+    font-size: 3rem;
+    color: #ECECEB;
+}
+
+.social-networks i:hover {
+    color: #F9A828;
+}
+
+
 
 
 /* Media Queries */
