@@ -34,6 +34,14 @@ h3 {
     font-weight: 700;
 }
 
+p {
+    line-height: 2.5rem;
+}
+
+.padding {
+    padding: 4rem 2rem 4rem 2rem;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -101,11 +109,10 @@ h3 {
 }
 
 #hero {
-    min-height: 70vh;
+    min-height: 100vh;
 }
 
 .hero-text {
-    padding: 4rem 2rem 4rem 2rem;
     letter-spacing: .2rem;
     position: absolute;
     top: 40%;
@@ -147,6 +154,23 @@ h3 {
     border: #ECECEB solid .2rem;
 }
 
+/* About Section */
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-video {
+    margin-left: 2.5rem;
+}
+
+.about-text {
+    margin: 0 5rem 5rem;
+    text-align: left;
+}
+
 /* Media Queries */
 
 /*Mobile */
@@ -162,7 +186,6 @@ h3 {
 }
 
 /*Tablets*/
-
 
 @media screen and (max-width: 768px) {
     .navbar {
@@ -186,25 +209,16 @@ h3 {
 
 /*Laptops*/
 
-@media screen and (max-width: 768px) {
-    .navbar {
-        justify-content: center;
+@media screen and (max-width: 950px) {
+    #about {
+        flex-direction: column;
     }
-
-    .nav-menu {
-        /*margin: .5rem 0px .5rem 1.5rem;*/
-        line-height: 2.5rem;
-    }
-
-    .nav-item {
-        display: block;
-        /*padding: .4rem 0 .4rem 0;*/
-    }
-
-    .parallax {
-        background-attachment: scroll;
+    .about-video iframe {
+        width: auto;
+        height: auto;
     }
 }
+
 
 
 /* Animations */
