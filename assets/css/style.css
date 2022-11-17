@@ -101,16 +101,17 @@ h3 {
 }
 
 #hero {
-    min-height: 60vh;
+    min-height: 70vh;
 }
 
 .hero-text {
-    bottom: 6rem;
-    right: 1.8rem;
-    padding: 4rem 1rem 4rem 1rem;
-    animation: moveInRight 1s ease-out;
+    padding: 4rem 2rem 4rem 2rem;
     letter-spacing: .2rem;
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /*----------------------------------Dark Background */
@@ -180,12 +181,6 @@ h3 {
 
     .parallax {
         background-attachment: scroll;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .hero-text {
-        left: .1rem;
     }
 }
 
