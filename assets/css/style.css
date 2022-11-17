@@ -92,7 +92,7 @@ p {
 
 .parallax {
     /* The image used */
-    background-image: url("../images/parallax.webp");
+    
     /* Set a specific height */
 
     width: 100%;
@@ -115,6 +115,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/parallax.webp");
 }
 
 .hero-text {
