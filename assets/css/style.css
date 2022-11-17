@@ -20,8 +20,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: Epilogue, sans-serif;
     font-size: 3rem;
     letter-spacing: .5rem;
@@ -29,8 +28,7 @@ h3 {
     text-transform: uppercase;
 }
 
-h2,
-h3 {
+h2 {
     font-weight: 700;
 }
 
@@ -39,7 +37,7 @@ p {
 }
 
 .padding {
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem;
 }
 
 /* Navigation Bar */
@@ -107,6 +105,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .parallax-small {
     min-height: 30vh;
 }
@@ -174,12 +173,48 @@ p {
     text-align: left;
 }
 
+/* What to expect section */
+
+#expect {}
+
+#expect>h2 {
+    text-align: center;
+}
+
+.expect-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.expect-text {
+    justify-content: center;
+    flex: 1;
+    margin: 3rem;
+    border: #2E383F solid .2rem;
+    border-radius: 2rem;
+}
+
+.expect-text:hover {
+    background-color: #2E383F;
+    color: #ECECEB;
+}
+
+.expect-text-heading {
+    padding-bottom: 1.5rem;
+}
+
+.expect-text>i {
+    font-size: 8rem;
+    padding-bottom: 3rem;
+}
+
 /* Media Queries */
 
 /*Mobile */
 
 @media screen and (max-width: 375px) {
-   .logo {
+    .logo {
         margin-right: 2rem;
     }
 
@@ -216,6 +251,7 @@ p {
     #about {
         flex-direction: column;
     }
+
     .about-video iframe {
         width: auto;
         height: auto;
