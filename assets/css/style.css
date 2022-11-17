@@ -91,19 +91,25 @@ p {
 /*Hero Banner*/
 
 .parallax {
+
+    background: url("../images/parallax.webp") no-repeat fixed center;
+    background-size: cover;
     /* The image used */
-    
+   
     /* Set a specific height */
 
     width: 100%;
     overflow: hidden;
     position: relative;
-
+   
     /* Create the parallax scrolling effect */
+     /*
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+     background-image: url("../images/parallax.webp");*/
+    
 }
 
 .parallax-small {
@@ -115,7 +121,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/parallax.webp");
 }
 
 .hero-text {
@@ -227,6 +232,20 @@ p {
 .gallery-img {
     width: 100%;
     padding-bottom: 1.5rem;
+}
+
+/* Location Section */
+
+#location {
+    background-image: url("../images/background2.jpg");
+}
+.location-outer {
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.locations-primary-text {
+    
 }
 
 /* Footer */
