@@ -10,19 +10,21 @@
 
 html {
     height: 100%;
+    font-size: 62.5%;
 }
 
 body {
     background-color: #ECECEB;
     color: #2E383F;
-    font-size: 110%;
+    font-size: 1.5rem;
 }
 
 h1,
 h2,
 h3 {
     font-family: Epilogue, sans-serif;
-    letter-spacing: 7px;
+    font-size: 3rem;
+    letter-spacing: .5rem;
     line-height: 1.5;
     text-transform: uppercase;
 }
@@ -30,7 +32,6 @@ h3 {
 h2,
 h3 {
     font-weight: 700;
-    font-size: 200%;
 }
 
 /* Navigation Bar */
@@ -46,23 +47,24 @@ h3 {
 
 .logo {
     margin-right: auto;
-    margin-left: 20px;
+    margin-left: .2rem;
+    padding: .5rem 0 .5rem;
 }
 
 .logo-img {
-    max-width: 80%;
+    max-width: 23rem;
 }
 
 .nav-menu {
-    padding: 5px 30px 5px 0;
+    padding: .5rem 3rem .5rem 0;
     color: #ECECEB;
 }
 
 .nav-item {
-    margin-right: 20px;
+    margin-right: 2rem;
     list-style-type: none;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: .4rem;
     display: inline;
 }
 
@@ -103,13 +105,11 @@ h3 {
 }
 
 .hero-text {
-    width: 360px;
-    height: 220px;
-    bottom: 60px;
-    right: 180px;
-    padding: 40px 0 0 10px;
+    bottom: 6rem;
+    right: 1.8rem;
+    padding: 4rem 1rem 4rem 1rem;
     animation: moveInRight 1s ease-out;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     position: absolute;
 }
 
@@ -117,33 +117,33 @@ h3 {
 .bg-dark {
     color: #ECECEB;
     background-color: rgba(46, 56, 63, .7);
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 
 .hero-text>h2 {
-    font-size: 110%;
-    letter-spacing: 2px;
-    padding-top: 5px;
-    margin-bottom: 15px;
+    font-size: 2.1rem;
+    letter-spacing: .2rem;
+    padding-top: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 .button {
     font-weight: 500;
-    font-size: 105%;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     color: #2E383F;
     background-color: rgb(249, 168, 40);
-    border: #2E383F solid 2px;
-    border-radius: 100px;
-    padding: 8px 17px;
+    border: #2E383F solid .2rem;
+    border-radius: 10rem;
+    padding: .8rem 1.7rem;
 }
 
 .button:hover {
     color: #ECECEB;
     background-color: #2E383F;
-    border: #ECECEB solid 2px;
+    border: #ECECEB solid .2rem;
 }
 
 /* Media Queries */
@@ -151,8 +151,8 @@ h3 {
 /*Mobile */
 
 @media screen and (max-width: 375px) {
-    .logo {
-        margin-right: 20px;
+   .logo {
+        margin-right: 2rem;
     }
 
     .logo-img {
@@ -162,27 +162,48 @@ h3 {
 
 /*Tablets*/
 
-@media screen and (max-width: 600px) {
-    .hero-text {
-        left: 1%;
-    }
-}
 
-/*Laptops*/
-
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 768px) {
     .navbar {
         justify-content: center;
     }
 
     .nav-menu {
-        margin: 5px 0px 5px 15px;
-        line-height: 25px;
+        /*margin: .5rem 0px .5rem 1.5rem;*/
+        line-height: 2.5rem;
     }
 
     .nav-item {
         display: block;
-        padding: 4px 0 4px 0;
+        /*padding: .4rem 0 .4rem 0;*/
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-text {
+        left: .1rem;
+    }
+}
+
+/*Laptops*/
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .nav-menu {
+        /*margin: .5rem 0px .5rem 1.5rem;*/
+        line-height: 2.5rem;
+    }
+
+    .nav-item {
+        display: block;
+        /*padding: .4rem 0 .4rem 0;*/
     }
 
     .parallax {
@@ -195,11 +216,11 @@ h3 {
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
 
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
 
     100% {
