@@ -239,7 +239,7 @@ p {
 #gallery {
     clear: both;
     line-height: 0;
-    column-count: 3;
+    column-count: 4;
     padding: 3rem;
 }
 
@@ -356,7 +356,11 @@ p {
 .location-outer {
     width: 100%;
 }
+#gallery {
+    column-count: 3;
 }
+}
+
 @media screen and (max-width: 375px) {
     html {   
         font-size: 50%;
