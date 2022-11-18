@@ -445,6 +445,10 @@ p {
         background-attachment: scroll;
     }
 
+    .location-primary-text {
+        width: 80%;
+    }
+
     .center,
     .right {
         margin-right: auto;
