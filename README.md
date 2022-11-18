@@ -42,3 +42,15 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 * People who live in Innsbruck and want to explore new freeride options in the local mountains, practise snow safety scenarios or test new equipment. 
 * People who don't live in the region, but are interessted in freeride skiing and want to explore the area in a guided and safe manner, practise snow safety scenarios or test new equipment. 
 
+## <a name="design">Design</a>
+
+---
+
+### <a name="colour-palette">Colour Palette</a> 
+
+![Colour Palette](assets/images/readme/colours.jpg)
+
+[*Sourced via Color Hunt.*](https://colorhunt.co/) 
+
+A simple color palette was chosen to reflect the colors of winter and echo the theme of the site. The colors white and dark gray provide a good contrast and the yellow serves to accentuate. The main colors are also present in the imagery and thus perfectly match the design of the site.
+
