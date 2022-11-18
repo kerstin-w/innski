@@ -440,6 +440,10 @@ p {
     .parallax {
         background-attachment: scroll;
     }
+
+    #signup .outer {
+        width: 80vw;
+    }
 }
 
 /*Laptops*/
