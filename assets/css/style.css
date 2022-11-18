@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-/* Default styling */
+/* Default styling and repeat styling */
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +45,12 @@ p {
     padding: 4rem;
 }
 
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heading-sub-page {
     margin-bottom: 3rem;
 }
@@ -55,7 +61,14 @@ p {
     width: 80vw;
 }
 
+/*----------------------------------Dark Background */
+.bg-dark {
+    color: #ECECEB;
+    background-color: rgba(46, 56, 63, .7);
+    border-radius: 2rem;
+}
 
+/*------------------------------------------------------Index Page*/
 /* Navigation Bar */
 
 .navbar {
@@ -107,34 +120,23 @@ p {
 /*Hero Banner*/
 
 .parallax {
-
     background: url("../images/parallax.webp");
     background-size: cover;
-    /* The image used */
-
-    /* Set a specific height */
-
     width: 100%;
     overflow: hidden;
     position: relative;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .parallax-small {
-    min-height: 30vh;
+    height: 30vh;
 }
 
 #hero {
     min-height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-text {
@@ -148,12 +150,7 @@ p {
     animation: moveInRight 1s ease-out;
 }
 
-/*----------------------------------Dark Background */
-.bg-dark {
-    color: #ECECEB;
-    background-color: rgba(46, 56, 63, .7);
-    border-radius: 2rem;
-}
+
 
 .hero-text>h2 {
     font-size: 2.1rem;
@@ -182,12 +179,6 @@ p {
 }
 
 /* About Section */
-
-#about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .about-video {
     margin-left: 2.5rem;
@@ -248,6 +239,7 @@ p {
     padding-bottom: 1.5rem;
 }
 
+/*------------------------------------------------------Location Page*/
 /* Location Section */
 
 #location {
@@ -288,16 +280,14 @@ p {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
 }
 
-/* Schedule Section */ 
+/*------------------------------------------------------Schedule Page*/
+/* Schedule Section */
 
-#schedule{
-        background-image: url("../images/background2.jpg");
+#schedule {
+    background-image: url("../images/background2.jpg");
 }
 
 .schedule {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     margin: 0 auto;
 }
@@ -328,9 +318,6 @@ p {
 
 .social-networks {
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .social-networks li {
@@ -353,16 +340,17 @@ p {
 
 /*Mobile */
 @media screen and (max-width: 425px) {
-.location-outer {
-    width: 100%;
-}
-#gallery {
-    column-count: 3;
-}
+    .location-outer {
+        width: 100%;
+    }
+
+    #gallery {
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 375px) {
-    html {   
+    html {
         font-size: 50%;
     }
 
@@ -417,6 +405,7 @@ p {
     .locations-primary-text {
         width: auto;
     }
+
     .location-container {
         justify-content: center;
     }
@@ -426,8 +415,6 @@ p {
         margin: 2rem;
     }
 }
-
-
 
 /* Animations */
 @keyframes moveInRight {
@@ -445,6 +432,7 @@ p {
         transform: translate(0);
     }
 }
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
