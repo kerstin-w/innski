@@ -292,9 +292,12 @@ p {
 
 .schedule-container {
     text-align: start;
-    border-bottom: #ECECEB .2rem solid;
     width: 60%;
     animation: moveInLeft 1s ease-out;
+    border: #ECECEB 0.2rem solid;
+    border-radius: 2rem;
+    background-color: rgba(46, 56, 63, .74);
+    margin-bottom: 4rem;
 }
 
 .center, .right {
@@ -303,7 +306,6 @@ p {
 
 .heading-schedule-list {
     border-bottom: #ECECEB .2rem solid;
-    padding-bottom: .5rem;
 }
 
 .schedule-list-container {
