@@ -61,6 +61,7 @@ p {
     width: 80vw;
 }
 
+
 /*----------------------------------Dark Background */
 .bg-dark {
     color: #ECECEB;
@@ -134,6 +135,10 @@ p {
 .parallax-small {
     height: 30vh;
 }
+.sub-page-bg {
+    background-image: url("../images/background2.jpg");
+}
+
 
 #hero {
     min-height: 90vh;
@@ -242,9 +247,7 @@ p {
 /*------------------------------------------------------Location Page*/
 /* Location Section */
 
-#location {
-    background-image: url("../images/background2.jpg");
-}
+
 
 
 .location-primary-text {
@@ -283,10 +286,6 @@ p {
 /*------------------------------------------------------Schedule Page*/
 /* Schedule Section */
 
-#schedule {
-    background-image: url("../images/background2.jpg");
-}
-
 .schedule {
     flex-direction: column;
 }
@@ -323,7 +322,12 @@ p {
     color: #F9A828;
 }
 
+/*------------------------------------------------------Signup Page*/
+/*Signup section*/
 
+#signup {
+
+}
 
 /* Footer */
 
