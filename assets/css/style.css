@@ -341,8 +341,8 @@ p {
     background: transparent;
     width: 50%;
     height: 2.5rem;
-    border: #ECECEB solid .1rem;
-    border-radius: .2rem;
+    border: #ECECEB solid .2rem;
+    border-radius: .4rem;
     display: block;
     text-align: left;
     margin: .5rem 0 2rem;
@@ -352,6 +352,7 @@ p {
     color: #ECECEB;
     opacity: 0.8;
     font-family: Roboto, sans-serif;
+    padding-left: .5rem;
 }
 
 .text-input:hover {
@@ -388,9 +389,6 @@ p {
 .social-networks i:hover {
     color: #F9A828;
 }
-
-
-
 
 /* Media Queries */
 
