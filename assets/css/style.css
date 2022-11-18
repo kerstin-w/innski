@@ -441,6 +441,12 @@ p {
         background-attachment: scroll;
     }
 
+    .center,
+    .right {
+        margin-right: auto;
+        margin-left: 0;
+    }
+
     #signup .outer {
         width: 80vw;
     }
