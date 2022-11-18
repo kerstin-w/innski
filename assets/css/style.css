@@ -325,8 +325,33 @@ p {
 /*------------------------------------------------------Signup Page*/
 /*Signup section*/
 
-#signup {
+#signup .outer {
+    width: 50vw;
+}
 
+.signup-form {
+    width: auto;
+    display: inline-block;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.text-input {
+    background: transparent;
+    width: 50%;
+    height: 2.5rem;
+    border: #ECECEB solid .1rem;
+    border-radius: .2rem;
+    display: block;
+    text-align: left;
+}
+
+.text-input:hover {
+    border-color: #F9A828;
+}
+
+.signup-form .button {
+    display: block;
 }
 
 /* Footer */
