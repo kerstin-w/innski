@@ -305,6 +305,10 @@ p {
     padding-bottom: .5rem;
 }
 
+.schedule-list-container {
+    display: flex;
+}
+
 .left {
     margin-right: auto;
 }
