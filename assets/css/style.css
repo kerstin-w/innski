@@ -191,7 +191,6 @@ p {
 }
 
 .about-text {
-    margin: 0 5rem 5rem;
     text-align: left;
 }
 
@@ -440,10 +439,11 @@ p {
     .nav-item {
         display: block;
     }
-
+    /*
     .parallax {
         background-attachment: scroll;
     }
+    */
 
     .location-primary-text {
         width: 80%;
