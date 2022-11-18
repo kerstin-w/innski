@@ -135,6 +135,7 @@ p {
 .parallax-small {
     height: 30vh;
 }
+
 .sub-page-bg {
     background-image: url("../images/background2.jpg");
 }
@@ -395,7 +396,9 @@ p {
 
 /*Mobile */
 @media screen and (max-width: 425px) {
-    .location-outer {
+
+    .outer,
+    #signup .outer {
         width: 100%;
     }
 
