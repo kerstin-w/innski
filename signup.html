@@ -40,11 +40,28 @@
     <!--Main Content-->
     <main>
         <section id="signup" class="sub-page-bg parallax">
-            <div class="signup outer padding">
-
+            <div class="signup outer bg-dark padding">
+                <form action="https://formdump.codeinstitute.net/" target="_blank" method="post" class="signup-form">
+                    <h1 class="heading-sub-page">Book your spot now!</h1>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" class="text-input" placeholder="John" required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" class="text-input" placeholder="Doe" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" class="text-input" placeholder="johndoe@gmail.com"
+                        required>
+                    <input type="radio" name="experience" id="beginner" value="beginner" class="radio-button" required>
+                    <label for="beginner">Beginner</label>
+                    <input type="radio" name="experience" id="advanced" value="advanced" class="radio-button">
+                    <label for="advanced">Advanced</label>
+                    <input type="radio" name="experience" id="expert" value="expert" class="radio-button">
+                    <label for="Expert">Expert</label>
+                    <input type="submit" class="button" value="Book Now">
+                </form>
             </div>
         </section>
     </main>
+
     <!--Footer-->
     <footer id="footer" class="padding">
         <ul class="social-networks flex-box">
