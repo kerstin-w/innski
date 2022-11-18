@@ -298,6 +298,11 @@ p {
     animation: moveInLeft 1s ease-out;
 }
 
+.heading-schedule-list {
+    border-bottom: #ECECEB 2px solid;
+    padding-bottom: 7px;
+}
+
 .left {
     margin-right: auto;
 }
@@ -305,6 +310,20 @@ p {
 .right {
     margin-left: auto;
 }
+
+.schedule-list {
+    padding: 4px;
+}
+
+.schedule-list>li {
+    padding: 0.5rem;
+}
+
+.schedule-list>li::marker {
+    content: "* ";
+    color: #F9A828;
+}
+
 
 
 /* Footer */
