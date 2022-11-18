@@ -346,6 +346,12 @@ p {
     text-align: left;
 }
 
+::placeholder {
+    color: #ECECEB;
+    opacity: 0.8;
+    font-family: Roboto, sans-serif;
+}
+
 .text-input:hover {
     border-color: #F9A828;
 }
