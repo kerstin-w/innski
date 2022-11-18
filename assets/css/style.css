@@ -293,13 +293,17 @@ p {
 
 .schedule-container {
     text-align: start;
-    border-bottom: #ECECEB 2px solid;
+    border-bottom: #ECECEB .2rem solid;
     animation: moveInLeft 1s ease-out;
 }
 
+.center, .right {
+    padding-top: 2.5rem;
+}
+
 .heading-schedule-list {
-    border-bottom: #ECECEB 2px solid;
-    padding-bottom: 7px;
+    border-bottom: #ECECEB .2rem solid;
+    padding-bottom: .5rem;
 }
 
 .left {
@@ -311,7 +315,7 @@ p {
 }
 
 .schedule-list {
-    padding: 4px;
+    padding: .4rem;
 }
 
 .schedule-list>li {
