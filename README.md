@@ -52,5 +52,12 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 
 [*Sourced via Color Hunt.*](https://colorhunt.co/) 
 
-A simple color palette was chosen to reflect the colors of winter and echo the theme of the site. The colors white and dark gray provide a good contrast and the yellow serves to accentuate. The main colors are also present in the imagery and thus perfectly match the design of the site.
+A simple color palette was chosen to reflect the colours of winter and echo the theme of the site. The colours white and dark gray provide a good contrast and the yellow serves to accentuate. The main colours are also present in the imagery and thus perfectly match the design of the site.
 
+### <a name="fonts">Fonts</a> 
+
+[*Sourced via Google Fonts.*](https://fonts.google.com/) 
+
+**Headings:** "Epilogue". This is a simple but modern font, completing a clear design. 
+
+**Body:** “Roboto”. This font pairs well with “Epilogue” and is modern, clean and easy to read. 
