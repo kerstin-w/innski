@@ -293,6 +293,7 @@ p {
 .schedule-container {
     text-align: start;
     border-bottom: #ECECEB .2rem solid;
+    width: 60%;
     animation: moveInLeft 1s ease-out;
 }
 
@@ -309,6 +310,11 @@ p {
     display: flex;
 }
 
+.schedule-list-container p {
+    width: fit-content;
+    padding: 2rem;
+}
+
 .left {
     margin-right: auto;
 }
@@ -318,7 +324,7 @@ p {
 }
 
 .schedule-list {
-    padding: .4rem;
+    padding: 2rem;
 }
 
 .schedule-list>li {
@@ -404,7 +410,7 @@ p {
 
     .outer,
     #signup .outer {
-        width: 100%;
+        width: auto;
     }
 
     #gallery {
@@ -416,7 +422,6 @@ p {
     html {
         font-size: 50%;
     }
-
     /*
     .logo {
         margin-right: 1rem;
@@ -459,6 +464,10 @@ p {
         margin-left: 0;
     }
 
+    .schedule-container {
+        width: 100%;
+    }
+
     #signup .outer {
         width: 80vw;
     }
@@ -491,6 +500,10 @@ p {
     .location-inner {
         width: 80vw;
         margin: 2rem;
+    }
+
+    .schedule-list-container {
+        flex-direction: column;
     }
 }
 
