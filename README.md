@@ -10,6 +10,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 - [User Experience](#ux)
   - [User Stories](#user-stories)
   - [Site Owner Goals](#goals)
+  - [Target Audience](#target-audience)
   - [User Requirements and Expectations](#user-requirements)
 - [Design](#design)
     - [Colour Palette](#colour-palette)
