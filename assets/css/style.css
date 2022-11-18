@@ -344,6 +344,7 @@ p {
     border-radius: .2rem;
     display: block;
     text-align: left;
+    margin: .5rem 0 2rem;
 }
 
 ::placeholder {
@@ -358,6 +359,7 @@ p {
 
 .signup-form .button {
     display: block;
+    margin-top: 2rem;
 }
 
 /* Footer */
