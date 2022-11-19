@@ -344,6 +344,13 @@ p {
     margin: .5rem 0 2rem;
 }
 
+.feedback {
+    margin: 2rem 0 2rem;
+}
+.feedback .text-input {
+height: auto;
+}
+
 ::placeholder {
     color: #ECECEB;
     opacity: 0.8;
