@@ -61,3 +61,15 @@ A simple color palette was chosen to reflect the colours of winter and echo the 
 **Headings:**  "Righteous" Is a modern and more juvenile font that stands out well as a heading and yet is not too distracting and is well readable. Initially I had chosen "Epilogue", but in later stages I found this font too simple and decided to use a font that is more distinctive. 
 
 **Body:** “Roboto”. This font pairs well with Headings and is modern, clean and easy to read. 
+
+### <a name="images">Images</a> 
+
+[*Sourced via Pexels.*](https://www.pexels.com/) & [*Sourced via TVB Innsbruck.*](https://www.innsbruckphoto.at/)
+
+Images are an important aspect of the site, as they should put the user in a winter mood and convey the outdoorsy feeling. Thereby it is easier for the user to get engaged with freeride skiing, regardless of the season or location. 
+
+* A scenic winter image was chosen as a background on each page. 
+
+* The homepage features a picture gallery with impressions of Innsbruck and Freeride Skiing. 
+
+* For each location a picture from that location was added which gives the user an insight into the area. 
