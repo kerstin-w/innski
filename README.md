@@ -19,6 +19,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 - [Wireframes](#wireframes)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Testing](#testing)
 
 ## <a name="ux">User Experience</a>
 
@@ -125,4 +126,7 @@ Future Features:
 * [Github](https://github.com/)
 * [Gitpod](https://www.gitpod.io/)
 
+## <a name="testing">Testing</a>
+
+---
 
