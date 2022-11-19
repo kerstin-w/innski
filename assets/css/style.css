@@ -214,6 +214,7 @@ p {
     margin: 3rem;
     border: #2E383F solid .2rem;
     border-radius: 2rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .2)
 }
 
 .expect-text:hover {
