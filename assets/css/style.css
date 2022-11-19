@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 /* Default styling and repeat styling */
 * {
@@ -22,7 +22,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Epilogue, sans-serif;
+    font-family: Righteous, sans-serif;
     text-transform: uppercase;
     letter-spacing: .5rem;
     line-height: 1.5;
