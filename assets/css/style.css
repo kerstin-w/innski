@@ -61,8 +61,6 @@ p {
     width: 80vw;
 }
 
-
-/*----------------------------------Dark Background */
 .bg-dark {
     color: #ECECEB;
     background-color: rgba(46, 56, 63, .7);
@@ -74,9 +72,6 @@ p {
 
 .navbar {
     display: flex;
-    /*
-    justify-content: flex-end;
-    */
     align-items: center;
     background-color: #2E383F;
 }
@@ -140,7 +135,6 @@ p {
     background-image: url("../images/background2.jpg");
 }
 
-
 #hero {
     min-height: 90vh;
 }
@@ -148,15 +142,9 @@ p {
 .hero-text {
     letter-spacing: .2rem;
     position: absolute;
-    /*
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
     text-align: center;
     animation: moveInRight 1s ease-out;
 }
-
-
 
 .hero-text>h2 {
     font-size: 2.1rem;
@@ -195,17 +183,13 @@ p {
 }
 
 /* What to expect section */
-
-#expect {}
-
-#expect>h2 {
+#expect {
     text-align: center;
 }
 
 .expect-container {
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
 .expect-text {
@@ -247,9 +231,6 @@ p {
 
 /*------------------------------------------------------Location Page*/
 /* Location Section */
-
-
-
 
 .location-primary-text {
     width: 50vw;
@@ -301,7 +282,8 @@ p {
     margin-bottom: 4rem;
 }
 
-.center, .right {
+.center,
+.right {
     padding-top: 2.5rem;
 }
 
@@ -348,7 +330,6 @@ p {
 
 .signup-form {
     width: auto;
-    display: inline-block;
     text-align: left;
     font-size: 2rem;
 }
@@ -360,7 +341,6 @@ p {
     border: #ECECEB solid .2rem;
     border-radius: .4rem;
     display: block;
-    text-align: left;
     margin: .5rem 0 2rem;
 }
 
@@ -425,15 +405,6 @@ p {
     html {
         font-size: 50%;
     }
-    /*
-    .logo {
-        margin-right: 1rem;
-    }
-
-    .logo-img {
-        min-width: 40vw;
-    }
-    */
 }
 
 /*Tablets*/
@@ -451,6 +422,7 @@ p {
     .nav-item {
         display: block;
     }
+
     /*
     .parallax {
         background-attachment: scroll;
