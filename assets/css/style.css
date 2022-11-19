@@ -310,16 +310,21 @@ p {
 
 .schedule-list {
     padding: 2rem;
+    list-style-type: none;
 }
 
 .schedule-list>li {
     padding: 0.5rem;
 }
 
-.schedule-list>li::marker {
-    content: "* ";
+.schedule-list>li {
+    padding: 0.5rem;
+}
+
+.schedule-list>li>span {
     color: #F9A828;
 }
+
 
 /*------------------------------------------------------Signup Page*/
 /*Signup section*/
@@ -434,11 +439,9 @@ height: auto;
         display: block;
     }
 
-    /*
     .parallax {
         background-attachment: scroll;
     }
-    */
 
     .location-primary-text {
         width: 80%;
