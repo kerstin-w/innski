@@ -347,6 +347,7 @@ p {
 .feedback {
     margin: 2rem 0 2rem;
 }
+
 .feedback .text-input {
 height: auto;
 }
@@ -405,6 +406,9 @@ height: auto;
 
     #gallery {
         column-count: 3;
+    }
+    .text-input {
+        width: 80%;
     }
 }
 
