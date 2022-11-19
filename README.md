@@ -18,6 +18,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
     - [Images](#images)
 - [Wireframes](#wireframes)
 - [Features](#features)
+- [Technologies](#technologies)
 
 ## <a name="ux">User Experience</a>
 
@@ -67,7 +68,7 @@ A simple color palette was chosen to reflect the colours of winter and echo the 
 
 [*Sourced via Pexels.*](https://www.pexels.com/) & [*Sourced via TVB Innsbruck.*](https://www.innsbruckphoto.at/)
 
-Images are an important aspect of the site, as they should put the user in a winter mood and convey the outdoorsy feeling. Thereby it is easier for the user to get engaged with freeride skiing, regardless of the season or location. 
+Images are an important aspect of the site, as they should put the user in a winter mood and convey the outdoorsy feeling. Thereby it is easier for the user to get engaged with freeride skiing, regardless of the season or location. The downside of images is of course that they increase the loading time. Therefore I compressed them with [TinyPNG](https://tinypng.com/). 
 
 * A scenic winter image was chosen as a background on each page. 
 
@@ -100,3 +101,28 @@ Future Features:
 
 * Add a new page with educational content releated to snow safety.
 * After the first event add a testimonal section to homepage. 
+
+## <a name="technologies">Technologies</a>
+
+---
+
+### Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) 
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Other
+
+* [Color Hunt](https://tinypng.com/) - Colour Pallete
+* [Google Fonts](https://fonts.google.com/) - Fonts
+* [Tiny PNG](https://tinypng.com/) - Compress Images
+* [Convertio](https://convertio.co/de/jpg-webp/) - Convert Images
+* [Font Awesome](https://fontawesome.com/) - Icons
+* [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Creater
+* [Adobe Express](https://express.adobe.com/) - Logo Creation
+* [Balsamiq](https://balsamiq.com/) - Wireframes
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+* [Github](https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+
+
