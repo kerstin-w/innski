@@ -281,7 +281,7 @@ p {
     max-height: 150px;
     width: auto;
     border-radius: 2rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2)
 }
 
 /*------------------------------------------------------Schedule Page*/
