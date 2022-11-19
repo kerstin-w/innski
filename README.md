@@ -48,7 +48,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 
 ### <a name="colour-palette">Colour Palette</a> 
 
-![Colour Palette](assets/images/readme/colours.jpg)
+![Colour Palette](assets/readme/colours.jpg)
 
 [*Sourced via Color Hunt.*](https://colorhunt.co/) 
 
@@ -73,3 +73,14 @@ Images are an important aspect of the site, as they should put the user in a win
 * The homepage features a picture gallery with impressions of Innsbruck and Freeride Skiing. 
 
 * For each location a picture from that location was added which gives the user an insight into the area. 
+
+## <a name="wireframes">Wireframes</a>
+
+---
+
+ [Click here for original Wireframe](assets/readme/wireframe.pdf)
+
+ Changes to original wireframes:
+ * Added a backgroundcolor to text elements that were on top of a background image to make them clearer to read.
+ * Added a text area for comments or questions to the sign up form. 
+ * On the homepage I changed the text for the hero banner to be centered. 
