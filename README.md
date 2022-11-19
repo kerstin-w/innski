@@ -58,6 +58,6 @@ A simple color palette was chosen to reflect the colours of winter and echo the 
 
 [*Sourced via Google Fonts.*](https://fonts.google.com/) 
 
-**Headings:** "Epilogue". This is a simple but modern font, completing a clear design. 
+**Headings:**  "Righteous" Is a modern and more juvenile font that stands out well as a heading and yet is not too distracting and is well readable. Initially I had chosen "Epilogue", but in later stages I found this font too simple and decided to use a font that is more distinctive. 
 
-**Body:** “Roboto”. This font pairs well with “Epilogue” and is modern, clean and easy to read. 
+**Body:** “Roboto”. This font pairs well with Headings and is modern, clean and easy to read. 
