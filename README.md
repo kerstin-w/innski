@@ -17,6 +17,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
     - [Fonts](#fonts)
     - [Images](#images)
 - [Wireframes](#wireframes)
+- [Features](#features)
 
 ## <a name="ux">User Experience</a>
 
@@ -84,3 +85,18 @@ Images are an important aspect of the site, as they should put the user in a win
  * Added a backgroundcolor to text elements that were on top of a background image to make them clearer to read.
  * Added a text area for comments or questions to the sign up form. 
  * On the homepage I changed the text for the hero banner to be centered. 
+
+ ## <a name="features">Features</a>
+
+ ---
+Current Features:
+
+* An appealing design and an intuitive navigation and orientation on the website.
+* A website which is fully responsive on all screen sizes
+* A sign up page to allow customers to book a spot for the festival and also to submit questions.
+* Social media links so that users can get in touch with us.
+
+Future Features:
+
+* Add a new page with educational content releated to snow safety.
+* After the first event add a testimonal section to homepage. 
