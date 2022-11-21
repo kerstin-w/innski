@@ -373,15 +373,14 @@ p {
 
 .schedule-list>li {
     padding: 0.5rem;
+    list-style-type:"* ";
 }
 
-.schedule-list>li {
-    padding: 0.5rem;
-}
-
-.schedule-list>li>span {
+.schedule-list>li::marker {
     color: #F9A828;
 }
+
+
 
 
 /*------------------------------------------------------Signup Page*/
