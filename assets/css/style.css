@@ -69,6 +69,11 @@ p {
     border-radius: 2rem;
 }
 
+.border-light {
+    border: #ECECEB .2rem solid;
+    border-radius: 2rem;
+}
+
 /*------------------------------------------------------Index Page*/
 /* Navigation Bar */
 
@@ -117,7 +122,7 @@ p {
 .menu-button-container {
     display: none;
     height: 100%;
-    width: 30px;
+    width: 3rem;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
@@ -134,20 +139,19 @@ p {
     display: block;
     background-color: #fff;
     position: absolute;
-    height: 4px;
-    width: 30px;
+    height: .4rem;
+    width: 3rem;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
   }
   
   .menu-button::before {
     content: '';
-    margin-top: -8px;
+    margin-top: -.8rem;
   }
   
   .menu-button::after {
     content: '';
-    margin-top: 8px;
+    margin-top: .8rem;
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button::before {
@@ -302,9 +306,7 @@ p {
 }
 
 .location-inner {
-    width: 33%;
-    border: #ECECEB .2rem solid;
-    border-radius: 2rem;
+    width: 40%;
     text-align: left;
     margin: 2rem;
     background-color: rgba(46, 56, 63, .74);
@@ -334,8 +336,6 @@ p {
     text-align: start;
     width: 60%;
     animation: moveInLeft 1s ease-out;
-    border: #ECECEB 0.2rem solid;
-    border-radius: 2rem;
     background-color: rgba(46, 56, 63, .74);
     margin-bottom: 4rem;
 }
