@@ -119,6 +119,8 @@ p {
     color: inherit;
     font-weight: 600;
 }
+
+/* The code for the hamburger menu was was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ */
 .menu-button-container {
     display: none;
     height: 100%;

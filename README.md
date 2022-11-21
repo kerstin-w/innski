@@ -20,6 +20,8 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 - [Features](#features)
 - [Technologies](#technologies)
 - [Testing](#testing)
+- [Deployment](#deployment)
+- [References & Credit](#references-credit)
 
 ## <a name="ux">User Experience</a>
 
@@ -87,6 +89,7 @@ Images are an important aspect of the site, as they should put the user in a win
  * Added a backgroundcolor to text elements that were on top of a background image to make them clearer to read.
  * Added a text area for comments or questions to the sign up form. 
  * On the homepage I changed the text for the hero banner to be centered. 
+ * A hamburger menu was added to the nav bar for mobile.
 
  ## <a name="features">Features</a>
 
@@ -122,11 +125,48 @@ Future Features:
 * [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Creater
 * [Adobe Express](https://express.adobe.com/) - Logo Creation
 * [Balsamiq](https://balsamiq.com/) - Wireframes
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 * [Github](https://github.com/)
 * [Gitpod](https://www.gitpod.io/)
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 ## <a name="testing">Testing</a>
 
 ---
 
+See [TEST.md](TEST.md) for an overview of website testing and debugging.
+
+## <a name="#deployment">Deployment</a>
+
+---
+
+This project was deployed from its Github repository to Github Pages:
+1. From the projects repository selecting "Settings" tab.
+2. On the left side click on "Pages"
+3. Under "Branch", click the dropdown named "None" and select "main". 
+4. Click save.
+5. After a few seconds, refresh the page and retriece the link.
+
+## <a name="#references-credit">References & Credit</a>
+
+--- 
+
+### Media & Fonts
+
+* [tiny.png](https://tinypng.com/): Used to compress media files
+* [Convertio](https://convertio.co/de/jpg-webp/): Used to convert images from jpg to webp
+* [Pexels](https://www.pexels.com/) & [TVB Innsbruck](https://www.innsbruckphoto.at): Resources for images
+* [Font Awesome](https://fontawesome.com/): Resource for icons
+* [Google Fonts](https://fonts.google.com): Used as font library
+* [RealFaviconGenerator](https://realfavicongenerator.net/): Used to create a Favicon
+
+### Code 
+
+* [W3Schools](https://www.w3schools.com/) & [MDN](https://developer.mozilla.org/): General source of help and guidance throughout this project.
+* [CSS-Tricks](https://css-tricks.com/): Guidance for flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and for list markers and string styles (https://css-tricks.com/list-markers-and-string-styles/).
+* [Udemy](https://www.udemy.com/): Guidance for animations was found in the Advanced CSS and Sass course (https://www.udemy.com/course/advanced-css-and-sass/) 
+
+### Content 
+
+The information on each ski resort was found on the following websites and written by the following Author:
+
+Andrea Poschinger (https://www.skigebiete-test.at/skimagazin/freeride-innsbruck.htm)
