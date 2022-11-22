@@ -321,8 +321,8 @@ p {
 }
 
 .location-inner-img>img {
-    max-height: 150px;
-    width: auto;
+    height: auto;
+    max-width: 225px;
     border-radius: 2rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2)
 }
