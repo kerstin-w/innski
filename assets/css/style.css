@@ -87,13 +87,13 @@ p {
     padding: 1em;
 }
 
-.logo {
+.nav-logo {
     margin-right: auto;
     margin-left: .2rem;
     padding: .5rem 0 .5rem;
 }
 
-.logo-img {
+.nav-logo-img {
     max-width: 23rem;
 }
 
@@ -106,7 +106,7 @@ p {
     color: #ECECEB;
 }
 
-.nav-item {
+.nav-menu-item {
     margin: 0 1rem;
     overflow: hidden;
     list-style-type: none;
@@ -129,46 +129,46 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  #menu-toggle {
+}
+
+#menu-toggle {
     display: none;
-  }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
     display: block;
     background-color: #fff;
     position: absolute;
     height: .4rem;
     width: 3rem;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-  
-  .menu-button::before {
+}
+
+.menu-button::before {
     content: '';
     margin-top: -.8rem;
-  }
-  
-  .menu-button::after {
+}
+
+.menu-button::after {
     content: '';
     margin-top: .8rem;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
     background: rgba(255, 255, 255, 0);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
-  }
+}
 
 .nav-menu .active {
     color: #F9A828;
@@ -315,12 +315,12 @@ p {
     animation: moveInRight 1s ease-out;
 }
 
-.location-img {
+.location-inner-img {
     text-align: center;
     padding-bottom: 3rem;
 }
 
-.location-img>img {
+.location-inner-img>img {
     max-height: 150px;
     width: auto;
     border-radius: 2rem;
@@ -375,15 +375,12 @@ p {
 
 .schedule-list>li {
     padding: 0.5rem;
-    list-style-type:"* ";
+    list-style-type: "* ";
 }
 
 .schedule-list>li::marker {
     color: #F9A828;
 }
-
-
-
 
 /*------------------------------------------------------Signup Page*/
 /*Signup section*/
@@ -415,7 +412,7 @@ p {
 }
 
 .feedback .text-input {
-height: auto;
+    height: auto;
 }
 
 .text-input::placeholder {
@@ -462,6 +459,7 @@ height: auto;
 
 /*Mobile */
 @media screen and (max-width: 425px) {
+
     .outer,
     #signup .outer {
         width: auto;
@@ -470,6 +468,7 @@ height: auto;
     #gallery {
         column-count: 3;
     }
+
     .text-input {
         width: 80%;
     }
@@ -486,8 +485,9 @@ height: auto;
 @media screen and (max-width: 768px) {
     .menu-button-container {
         display: flex;
-      }
-      .nav-menu {
+    }
+
+    .nav-menu {
         position: absolute;
         top: 0;
         margin-top: 7rem;
@@ -496,20 +496,23 @@ height: auto;
         width: 100%;
         justify-content: center;
         align-items: center;
-      }
-      #menu-toggle ~ .nav-menu .nav-item {
+    }
+
+    #menu-toggle~.nav-menu .nav-menu-item {
         height: 0;
         margin: 0;
         padding: 0;
         border: 0;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-      }
-      #menu-toggle:checked ~ .nav-menu .nav-item {
+    }
+
+    #menu-toggle:checked~.nav-menu .nav-menu-item {
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-      }
-      .nav-item {
+    }
+
+    .nav-menu-item {
         display: flex;
         justify-content: center;
         margin: 0;
@@ -517,20 +520,7 @@ height: auto;
         width: 100%;
         color: white;
         background-color: #2E383F;
-      }
-    /*
-    .navbar {
-        justify-content: center;
     }
-
-    .nav-menu {
-        line-height: 2.5rem;
-        padding: 0;
-    }
-
-    .nav-item {
-        display: block;
-    }*/
 
     .parallax {
         background-attachment: scroll;
