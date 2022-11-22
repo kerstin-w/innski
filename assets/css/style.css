@@ -386,7 +386,7 @@ p {
 /*Signup section*/
 
 #signup .outer {
-    width: 50vw;
+    width: fit-content;
 }
 
 .signup-form {
@@ -460,8 +460,7 @@ p {
 /*Mobile */
 @media screen and (max-width: 425px) {
 
-    .outer,
-    #signup .outer {
+    .outer {
         width: auto;
     }
 
@@ -538,10 +537,6 @@ p {
 
     .schedule-container {
         width: 100%;
-    }
-
-    #signup .outer {
-        width: 80vw;
     }
 }
 
