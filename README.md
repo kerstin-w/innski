@@ -117,7 +117,7 @@ Future Features:
 
 ### Other
 
-* [Color Hunt](https://tinypng.com/) - Colour Pallete
+* [Color Hunt](https://colorhunt.co/) - Colour Pallete
 * [Google Fonts](https://fonts.google.com/) - Fonts
 * [Tiny PNG](https://tinypng.com/) - Compress Images
 * [Convertio](https://convertio.co/de/jpg-webp/) - Convert Images
@@ -144,7 +144,7 @@ This project was deployed from its Github repository to Github Pages:
 2. On the left side click on "Pages"
 3. Under "Branch", click the dropdown named "None" and select "main". 
 4. Click save.
-5. After a few seconds, refresh the page and retriece the link.
+5. After a few seconds, refresh the page and retrieve the link.
 
 ## <a name="#references-credit">References & Credit</a>
 
