@@ -165,6 +165,13 @@ Images are an important aspect of the site, as they should put the user in a win
 * The design is repetitive to facilitate user orientation and understanding.
 * An animation was added to the text overlay to make the page look more dynamic.
 
+### Sign Up
+
+![Sign Up Page](assets/readme/signup.jpg "Sign Up Page")
+
+* Through the Sign Up page, the user can enroll for the event.
+* The user is asked for his ski niveau and has the option to raise own questions or comments.
+* Full name and email address are required to submit the form. 
 
 Future Features:
 
@@ -186,6 +193,7 @@ Future Features:
 * [Google Fonts](https://fonts.google.com/) - Fonts
 * [Tiny PNG](https://tinypng.com/) - Compress Images
 * [Convertio](https://convertio.co/de/jpg-webp/) - Convert Images
+* [Simple Image Resizer](https://www.simpleimageresizer.com/) - Resizing Images
 * [Font Awesome](https://fontawesome.com/) - Icons
 * [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Creater
 * [Adobe Express](https://express.adobe.com/) - Logo Creation
@@ -198,11 +206,22 @@ Future Features:
 
 ---
 
-See [TEST.md](TEST.md) for an overview of website testing and debugging.
+See [TESTING.md](TESTING.md) for an overview of website testing and debugging.
 
 ## <a name="#deployment">Deployment</a>
 
 ---
+
+This project was created through [GitHub](https://github.com/):
+1. Locating repository, clicking on the "New" button.
+2. Selecting the relevant template:  "Code-Institute-Org/gitpod-full-template" 
+3. Adding the repository name "innski".
+4. Clicking the button "Create repository". 
+
+This project was developed using [GitPod](https://gitpod.io/) and committed and pushed to GitHub using the GitPod terminal. Following "git commands" were used:
+1. **git add .** - This command for multiple files to the staging area before commiting. 
+2. **git commit -m "Message explaining upadate"** - This command explained changes that were done to the repository. 
+3. **git push** - This command was used to push all committed changes to the GitHub Repository. 
 
 This project was deployed from its Github repository to Github Pages:
 1. From the projects repository selecting "Settings" tab.
