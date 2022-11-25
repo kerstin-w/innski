@@ -69,8 +69,13 @@ p {
     border-radius: 2rem;
 }
 
-.border-light {
-    border: #ECECEB .2rem solid;
+.bg-light {
+    background-color: #ECECEB;
+    color: #2E383F;
+}
+
+.border-dark {
+    border: #2E383F .2rem solid;
     border-radius: 2rem;
 }
 
@@ -262,15 +267,18 @@ p {
     justify-content: center;
     flex: 1;
     margin: 3rem;
-    border: #2E383F solid .2rem;
+    background-color: #2E383F;
+    color: #ECECEB;
+    /*
+    border: #2E383F solid .2rem;*/
     border-radius: 2rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .2)
 }
-
+/*
 .expect-text:hover {
     background-color: #2E383F;
     color: #ECECEB;
-}
+}*/
 
 .expect-text-heading {
     padding-bottom: 1.5rem;
@@ -313,7 +321,6 @@ p {
     width: 40%;
     text-align: left;
     margin: 2rem;
-    background-color: rgba(46, 56, 63, .74);
     animation: moveInRight 1s ease-out;
 }
 
@@ -340,7 +347,6 @@ p {
     text-align: start;
     width: 60%;
     animation: moveInLeft 1s ease-out;
-    background-color: rgba(46, 56, 63, .74);
     margin-bottom: 4rem;
 }
 
@@ -350,7 +356,7 @@ p {
 }
 
 .heading-schedule-list {
-    border-bottom: #ECECEB .2rem solid;
+    border-bottom: #2E383F .2rem solid;
 }
 
 .schedule-list-container {
@@ -389,23 +395,26 @@ p {
 
 #signup .outer {
     width: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-form {
     width: auto;
     text-align: left;
     font-size: 2rem;
+    margin: 4rem;
 }
 
 .text-input {
     background: transparent;
     width: 50%;
     height: 2.5rem;
-    border: #ECECEB solid .2rem;
+    border: #2E383F solid .2rem;
     border-radius: .4rem;
     display: block;
     margin: .5rem 0 2rem;
-    color: #ECECEB;
+    color: #2E383F;
     padding-left: .5rem;
 }
 
@@ -418,7 +427,7 @@ p {
 }
 
 .text-input::placeholder {
-    color: #ECECEB;
+    color: #2E383F;
     opacity: 0.8;
 }
 
