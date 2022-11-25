@@ -172,6 +172,8 @@ p {
 
 .nav-menu .active {
     color: #F9A828;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
 }
 
 .nav-menu a:hover {

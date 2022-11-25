@@ -2,6 +2,9 @@
 
 This is an event website to attract skiers in the Alps of all levels to come together in Innsbruck for three days. During the Freeride Festivel participants will be offered guided freeriding, gear testing and snow safety training.
 
+# Live Project 
+
+[View live project here](https://kerstin-w.github.io/innski/)
 
 ## Contents
 
