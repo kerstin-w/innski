@@ -403,7 +403,7 @@ p {
     width: auto;
     text-align: left;
     font-size: 2rem;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .text-input {
@@ -491,6 +491,10 @@ p {
     .schedule-list {
         margin: 0 4rem;
         text-align: left;
+    }
+
+    .signup-form {
+        margin: 1.5rem;
     }
 }
 
