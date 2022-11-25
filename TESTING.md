@@ -39,3 +39,21 @@
 
 ---
 
+### <a name="html">HTML</a>
+
+[W3C](https://validator.w3.org/)
+
+The initial test returned an error for the Youtube iFrame and a warning for the Gallery section. 
+![HTML Validator first results](assets/testing/w3c-html1.jpg)
+![HTML Validator first results](assets/testing/w3c-html2.jpg)
+
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of WC3 testing for InnSki homepage](assets/testing/)
+</details>
+<details>
+<summary>Dates Page</summary>
+
+![Screenshot of WC3 testing for Location page](documentation/testing/dates.png)
+</details>
