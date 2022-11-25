@@ -97,12 +97,74 @@ Images are an important aspect of the site, as they should put the user in a win
  ## <a name="features">Features</a>
 
  ---
-Current Features:
+### Current Features:
 
 * An appealing design and an intuitive navigation and orientation on the website.
 * A website which is fully responsive on all screen sizes
 * A sign up page to allow customers to book a spot for the festival and also to submit questions.
 * Social media links so that users can get in touch with us.
+
+### Navigation Bar
+
+![Navigation Bar on Desktop](assets/readme/nav-desktop.jpg "Navigation Bar on Desktop")
+
+![Navigation Bar on Mobile](assets/readme/nav-mobile.jpg "Navigation Bar on Mobile")
+
+* The navigation bar was located throughout all pages in the same format to allow consistency and ease of use when using the site.
+* The navigation bar is is responsive. On smaller tablets and on mobile the navigation bar moves into hamburger format, allowing the screen not to be cluttered.
+
+### Hero Banner 
+
+![Hero Banner](assets/readme/hero.jpg "Hero Banner")
+
+* The hero banner on the home page includes a scenic picture and a text overlay to see when the event takes place and to already make a booking. 
+* An animation was added to the text overlay to make the page look more dynamic.
+
+### About 
+
+![About Section](assets/readme/about.jpg "About Section")
+
+* The about sections highlights a video about Innsbruck as a Freeride City to give the user already a clear idea of the potential in the area.
+* The text is a short overview of the event that provides all relevant information for the user to get a general understanding of the event.
+
+### What to expect 
+
+![What to expect Section](assets/readme/expect.jpg "What to expect Section")
+
+* This section shows in three parts which benefit the user will receive at the event.
+* Icons were used to allow a quick understanding even without reading the text.
+
+### Gallery 
+
+![Gallery Section](assets/readme/gallery.jpg "Gallery Section")
+
+* The gallery provides the user with an insight into the terrain.
+* Tha gallery is also intended to put the user in anticipation of skiing.
+
+### Footer 
+
+![Footer Section](assets/readme/footer.jpg "Footer Section")
+
+* The footer section includes links to the relevant social media sites.
+* The footer is valuable to the user as it encourages them to keep connected via social media.
+
+### Location
+
+![Location Page](assets/readme/location.jpg "Location Page")
+
+* The location page highlights the four prime areas around Innsbruck where users will be freeriding during the event.
+* For the background a snow covered montain was chosen and text inserted with an overlay.
+* Each location is listed in its own container, which stands out very well due to the light background and is easy to read. 
+* An animation was added to the text overlay to make the page look more dynamic.
+
+### Schedule
+
+![Schedule Page](assets/readme/schedule.jpg "Schedule Page")
+
+* The schedule page gives the user a clear overview of the activities on the day and what will be done in more detail.
+* The design is repetitive to facilitate user orientation and understanding.
+* An animation was added to the text overlay to make the page look more dynamic.
+
 
 Future Features:
 
