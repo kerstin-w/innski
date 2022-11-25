@@ -43,17 +43,58 @@
 
 [W3C](https://validator.w3.org/)
 
-The initial test returned an error for the Youtube iFrame and a warning for the Gallery section. 
-![HTML Validator first results](assets/testing/w3c-html1.jpg)
-![HTML Validator first results](assets/testing/w3c-html2.jpg)
+The initial test returned an error for the Youtube iFrame and a warning for the Gallery section and errors for the hamburger menu. 
 
+<details>
+<summary>Initial test</summary>
+
+![HTML Validator first results](assets/testing/w3c-html1.jpg)
+
+![HTML Validator first results](assets/testing/w3c-html2.jpg)
+</details>
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of WC3 testing for InnSki homepage](assets/testing/)
+![Screenshot of WC3 testing for InnSki homepage](assets/testing/w3c-index.jpg)
 </details>
 <details>
-<summary>Dates Page</summary>
+<summary>Location Page</summary>
 
-![Screenshot of WC3 testing for Location page](documentation/testing/dates.png)
+![Screenshot of WC3 testing for Location page](assets/testing/w3c-location.jpg)
+</details>
+<details>
+<summary>Schedule Page</summary>
+
+![Screenshot of WC3 testing for Schedulen page](assets/testing/w3c-schedule.jpg)
+</details>
+<details>
+<summary>Signup Page</summary>
+
+![Screenshot of WC3 testing for Signup page](assets/testing/w3c-signup.jpg)
+</details>
+
+### <a name="css">CSS</a>
+
+[W3C](https://jigsaw.w3.org/css-validator/) 
+
+This test returned no errors.
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of WC3 testing for InnSki homepage](assets/testing/jigsaw-index.jpg)
+</details>
+<details>
+<summary>Location Page</summary>
+
+![Screenshot of WC3 testing for Location page](assets/testing/jigsaw-location.jpg)
+</details>
+<details>
+<summary>Schedule Page</summary>
+
+![Screenshot of WC3 testing for Location page](assets/testing/jigsaw-schedule.jpg)
+</details>
+<details>
+<summary>Signup Page</summary>
+
+![Screenshot of WC3 testing for Location page](assets/testing/jigsaw-signup.jpg)
 </details>
