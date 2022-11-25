@@ -212,8 +212,8 @@ p {
 
 .hero-text {
     letter-spacing: .2rem;
-    position: absolute;
     text-align: center;
+    margin: 0 3rem;
     animation: moveInRight 1s ease-out;
 }
 
@@ -246,7 +246,7 @@ p {
 /* About Section */
 
 .about-video {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 }
 
 .about-text {
@@ -319,7 +319,7 @@ p {
 
 .location-inner {
     width: 40%;
-    text-align: left;
+    text-align: center;
     margin: 2rem;
     animation: moveInRight 1s ease-out;
 }
@@ -482,6 +482,15 @@ p {
     .text-input {
         width: 80%;
     }
+
+    .schedule-container {
+        text-align: center;
+    }
+
+    .schedule-list {
+        margin: 0 4rem;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -534,6 +543,14 @@ p {
 
     .parallax {
         background-attachment: scroll;
+    }
+
+    .padding {
+        padding: 4rem 2rem 4rem;
+    }
+
+    .about-text {
+        text-align: center;
     }
 
     .location-primary-text {
