@@ -12,7 +12,7 @@
 html {
     height: 100%;
     margin: 0;
-    font-size: 62.5%;
+    font-size: 0.65rem;
 }
 
 body {
@@ -403,7 +403,7 @@ p {
     width: auto;
     text-align: left;
     font-size: 2rem;
-    margin: 4rem;
+    margin: 2rem;
 }
 
 .text-input {
