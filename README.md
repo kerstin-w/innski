@@ -200,8 +200,8 @@ Future Features:
 * [RealFaviconGenerator](https://realfavicongenerator.net/) - Favicon Creater
 * [Adobe Express](https://express.adobe.com/) - Logo Creation
 * [Balsamiq](https://balsamiq.com/) - Wireframes
-* [Github](https://github.com/)
-* [Gitpod](https://www.gitpod.io/)
+* [Github](https://github.com/) - Storing and hosting repository 
+* [Gitpod](https://www.gitpod.io/) - Code editor
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 ## <a name="testing">Testing</a>
@@ -226,11 +226,13 @@ This project was developed using [GitPod](https://gitpod.io/) and committed and 
 3. **git push** - This command was used to push all committed changes to the GitHub Repository. 
 
 This project was deployed from its Github repository to Github Pages:
-1. From the projects repository selecting "Settings" tab.
-2. On the left side click on "Pages"
-3. Under "Branch", click the dropdown named "None" and select "main". 
-4. Click save.
-5. After a few seconds, refresh the page and retrieve the link.
+1. Log in to Github account
+2. From the projects repository selecting "Settings" tab.
+3. Click on "Pages" from the left-hand menu
+4. The "Source" box must state "Deplay from branch"
+5. Under "Branch", click the dropdown named "None" and select "main". 
+6. Click save.
+6. After a few seconds, refresh the page and retrieve the link.
 
 ## <a name="#references-credit">References & Credit</a>
 

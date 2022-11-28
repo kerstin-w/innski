@@ -546,10 +546,6 @@ p {
         background-color: #2E383F;
     }
 
-    .parallax {
-        background-attachment: scroll;
-    }
-
     .padding {
         padding: 4rem 1.5rem 4rem;
     }
