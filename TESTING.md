@@ -98,3 +98,17 @@ This test returned no errors.
 
 ![Screenshot of WC3 testing for Location page](assets/testing/jigsaw-signup.jpg)
 </details>
+
+## <a name="wave">WAVE</a>
+
+---
+
+ [WAVE](https://wave.webaim.org/) This extension was used to highlight aspects that were an issue within the code. 
+
+ The first result gave an error for a missing form label button on the Sign up page and an empty form label for the hamburger menu on the homepage.
+
+ The missing form label button on the Sign up page was due to a typo. 
+
+ Since the hamburger menu could only be created with HTML and CSS (rather than JavaScript which would be the better and accessibility better solution) the HTML symbol for hamburger menu has been added here to fix the bug. 
+
+ ![WAVE Validator Results](assets/img/TEST.md/wave.png)

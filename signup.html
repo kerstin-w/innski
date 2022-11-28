@@ -24,7 +24,8 @@
                 <a href="index.html"><img src="assets/images/logo.png" class="nav-logo-img" alt="InnSki Logo"></a>
             </div>
             <input id="menu-toggle" type="checkbox">
-            <label class="menu-button-container" for="menu-toggle">
+            <label class="menu-button-container" for="menu-toggle" aria-haspopup="true" aria-controls="nav-menu"
+                aria-label="Open navigation menu">&#9776;
                 <span class="menu-button"></span>
             </label>
             <ul class="nav-menu">
@@ -49,7 +50,8 @@
         <section id="signup" class="sub-page-bg parallax">
             <div class="signup outer bg-dark">
                 <h1 class="padding">Book your spot now!</h1>
-                <form action="https://formdump.codeinstitute.net/" target="_blank" method="post" class="signup-form bg-light border-dark padding">
+                <form action="https://formdump.codeinstitute.net/" target="_blank" method="post"
+                    class="signup-form bg-light border-dark padding">
                     <label for="fname">First Name</label>
                     <input type="text" name="fname" id="fname" class="text-input" placeholder="John" required>
                     <label for="lname">Last Name</label>
