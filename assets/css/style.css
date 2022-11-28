@@ -274,6 +274,7 @@ p {
     border-radius: 2rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .2)
 }
+
 /*
 .expect-text:hover {
     background-color: #2E383F;
@@ -548,6 +549,10 @@ p {
 
     .padding {
         padding: 4rem 1.5rem 4rem;
+    }
+
+    .parallax {
+        background-attachment: scroll;
     }
 
     .about-text {
