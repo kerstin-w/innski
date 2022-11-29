@@ -117,22 +117,22 @@ The initial result was 90 but pointed out that loading time could be improved by
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for InnSki homepage](assets/testing/)
+![Screenshot of Lighthouse Desktop Validator Results for InnSki homepage](assets/testing/lh-desktop-homepage.jpg)
 </details>
 <details>
 <summary>Location Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-desktop-location.jpg)
 </details>
 <details>
 <summary>Schedule Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-desktop-schedule.jpg)
 </details>
 <details>
 <summary>Signup Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-desktop-signup.jpg)
 </details>
 
 ### Mobile Results 
@@ -140,22 +140,22 @@ The initial result was 90 but pointed out that loading time could be improved by
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for InnSki homepage](assets/testing/)
+![Screenshot of Lighthouse Desktop Validator Results for InnSki homepage](assets/testing/lh-mobile-homepage.jpg)
 </details>
 <details>
 <summary>Location Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/.jpg)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-desktop-location.jpg)
 </details>
 <details>
 <summary>Schedule Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/.jpg)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-mobile-schedule.jpg)
 </details>
 <details>
 <summary>Signup Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/.jpg)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-mobile-signup.jpg)
 </details>
 
 ## <a name="browser-compatibility">Browser Compatibility</a>
