@@ -44,7 +44,7 @@
 
 [W3C Markup Validator](https://validator.w3.org/)
 
-The initial test returned an error for the Youtube iFrame and a warning for the Gallery section and errors for the hamburger menu. 
+The initial test returned an error for the Youtube iFrame, a warning for the Gallery section and errors for the hamburger menu. 
 
 <details>
 <summary>Initial test</summary>
@@ -193,47 +193,77 @@ I was able to directly test the website on an iPhone 13 mini and an iPad.
 
 ---
 
-* *As a user, I want to understand what the site is about.*
+*As a user, I want to understand what the site is about.*
 
 This was achieved through the hero banner, the brief explanation on the homepage and the "What to expect” section. The user gets further and detailed information on the subpages "Location" and "Schedule".
 
-* *As a user, I want to easily navigate through the site even on the first visit.*
+*As a user, I want to easily navigate through the site even on the first visit.*
 
 This was achieved through a common menu type, repeating patterns through the whole website and self-explanatory links. 
 
-* *As a user, I want to find Information on what the event contains and what I can expect.*
+*As a user, I want to find Information on what the event contains and what I can expect.*
 
 This was achieved through the “What to expect” section on the homepage, the subpage "Schedule" as well as the imagery throughout the whole page. 
 
-* *As a user, I want to find where the event takes place.*
+*As a user, I want to find where the event takes place.*
 
 This was achieved through the "Location" subpage and through the Youtube video on the homepage.
 
-* *As a user, I want to sign up for the event.*
+*As a user, I want to sign up for the event.*
 
 This was achieved through the form on the "Sign Up" subpage. 
 
 ## <a name="goals">Site Owner Goals</a> 
 
-* *As a site owner, I want to inform about the event.*
+---
+
+*As a site owner, I want to inform about the event.*
 
 This was achieved through the “About” and “What to expect” section on the homepage as well as through the "Schedule" subpage. 
 
-* *As a site owner, I want to inspire users to go freeride skiing.*
+*As a site owner, I want to inspire users to go freeride skiing.*
 
 This was achieved through the video and gallery on the homepage and through the imagery throughout the whole page.
 
-* *As a site owner, I want people to sign up for the event.*
+*As a site owner, I want people to sign up for the event.*
 
 This was achieved through a sign up button in the hero banner and the sign up from. 
 
-* *As a site owner, I want to increase my reach and visits of the site.* 
+*As a site owner, I want to increase my reach and visits of the site.* 
 
 This was achieved by creating an appealing website and event and through a good Lighthouse score which indicates a better Google ranking. 
 
 ## <a name="issues-bugs">Issues/ Bugs Found & Resolved</a>
 
-  ---
+---
 
 During the development and testing phase, several bugs were identified and were resolved with the help of either Google, the Tutors, the Slack community, or my mentor.
+
+### Navigation
+Originally I had the navigation on mobile without hamburger menu and the menu items listed in a block. However, this was a bit too delicate for mobile and caused during testing that it was easy to click on the wrong menu item. I found a helpful [page](https://alvarotrigo.com/blog/hamburger-menu-css/) how to create hamburger menu even without JavaScript/Bootstrap and added this to the navigation.
+
+### The pseudo-element
+The pseudo-element ::marker with content:"* " was added to a list on the schedule page. As it was found out during testing, the content wasn't supported by Safari. I decided to resolve this issue with a <span>. This was not an appropriate fix either and I solved it with a list style type and marker. Solution found [here](https://css-tricks.com/list-markers-and-string-styles/) 
+
+### Page Speed
+A big concern was the page speed. Since the page uses several images, which were also obtained in rather high quality, this made the page quite slow. Compressing the images did not bring the desired success and so I resized the images from the gallery at the advice of my mentor, since they do not have to be displayed in the highest quality due to their smaller size. 
+
+### Animation Hero Text
+After my decision to move the text in the hero banner from the right side to the center, I had problems with the animation bouncing at the end to a position I didn't intend. I removed the Top % and Left % and centered the Hero text with Text Align. After that the animation behaved as expected. 
+
+### Validation Issue
+The initial test returned an error for the Youtube iFrame, a warning for the Gallery section and errors for the hamburger menu. The Youtube iFrame included an obsolete element <frameborder> which I ereased. Since the Gallery was set up as section, but wihtout text, the validation gave out a warining about missing headings for this section. Therefore I have changed the section into a div. Alternatively, the section could have used a hidden heading. The hamburger menu had an empty label and therefore I added a <span> to the menu-botton.
+
+### Wave Issue
+The first result gave an error for a missing form label button on the Sign up page and an empty form label for the hamburger menu on the homepage. The missing form label button on the Sign up page was due to a typo.The HTML symbol for hamburger menu has been added here to fix the bug for the hamburger menu label. 
+
+### Hover on "What you can expect"
+During testing, I received fas feedback that the hover effect added to the boxes for the "What you can expect" section is misleading and implies that if you click on the boxes, something will happen. Therefore, this effect was deleted.
+
+## <a name="unresolved">Unresolved</a>
+
+---
+
+### Parallax Scroll on mobile:
+Unfortunately, the Parallax Effect is not yet well supported on mobile and the [W3C](https://www.w3schools.com/howto/howto_css_parallax.asp) solution turned out to be less than ideal when tested on an iPhone device. However, I have already found good approaches for the future. For example [here](https://stackoverflow.com/questions/57219561/background-attachment-fixed-in-firefox-or-edge-versus-chrome/). 
 

@@ -179,6 +179,10 @@ Future Features:
 
 * Add a new page with educational content releated to snow safety.
 * After the first event add a testimonal section to homepage. 
+* Add a more robust and accessible hamburger menu with Bootstrap. 
+* Adding the profiles of the mountain guides.
+* Adding a raffle for 2 spots at next year's event.
+* Adding a special page which can only be accessed by participants. Here, the top 5 secret spots for freeriding in the area around Innsbruck will be published on an interactive map on a monthly basis. 
 
 ## <a name="technologies">Technologies</a>
 
