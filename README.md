@@ -16,7 +16,6 @@ This is an event website to attract skiers in the Alps of all levels to come tog
   - [User Stories](#user-stories)
   - [Site Owner Goals](#goals)
   - [Target Audience](#target-audience)
-  - [User Requirements and Expectations](#user-requirements)
 - [Design](#design)
     - [Colour Palette](#colour-palette)
     - [Fonts](#fonts)
@@ -62,7 +61,7 @@ This is an event website to attract skiers in the Alps of all levels to come tog
 
 [*Sourced via Color Hunt.*](https://colorhunt.co/) 
 
-A simple color palette was chosen to reflect the colours of winter and echo the theme of the site. The colours white and dark gray provide a good contrast and the yellow serves to accentuate. The main colours are also present in the imagery and thus perfectly match the design of the site.
+A simple colour palette was chosen to reflect the colours of winter and echo the theme of the site. The colours white and dark gray provide a good contrast and the yellow serves to accentuate. The main colours are also present in the imagery and thus perfectly match the design of the site.
 
 ### <a name="fonts">Fonts</a> 
 
@@ -141,7 +140,7 @@ Images are an important aspect of the site, as they should put the user in a win
 ![Gallery Section](assets/readme/gallery.jpg "Gallery Section")
 
 * The gallery provides the user with an insight into the terrain.
-* Tha gallery is also intended to put the user in anticipation of skiing.
+* The gallery is also intended to put the user in anticipation of skiing.
 
 ### Footer 
 

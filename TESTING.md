@@ -240,7 +240,7 @@ This was achieved by creating an appealing website and event and through a good 
 During the development and testing phase, several bugs were identified and were resolved with the help of either Google, the Tutors, the Slack community, or my mentor.
 
 ### Navigation
-Originally I had the navigation on mobile without hamburger menu and the menu items listed in a block. However, this was a bit too delicate for mobile and caused during testing that it was easy to click on the wrong menu item. I found a helpful [page](https://alvarotrigo.com/blog/hamburger-menu-css/) how to create hamburger menu even without JavaScript/Bootstrap and added this to the navigation.
+Originally, I created the navigation on mobile without hamburger menu and the menu items listed in a block. However, this was a bit too delicate for mobile and it became apparent during testing that it was easy to click on the wrong menu item. I found a helpful [page](https://alvarotrigo.com/blog/hamburger-menu-css/) how to create hamburger menu even without JavaScript/Bootstrap and added this to the navigation.
 
 ### The pseudo-element
 The pseudo-element ::marker with content:"* " was added to a list on the schedule page. As it was found out during testing, the content wasn't supported by Safari. I decided to resolve this issue with a <span>. This was not an appropriate fix either and I solved it with a list style type and marker. Solution found [here](https://css-tricks.com/list-markers-and-string-styles/) 
@@ -258,7 +258,7 @@ The initial test returned an error for the Youtube iFrame, a warning for the Gal
 The first result gave an error for a missing form label button on the Sign up page and an empty form label for the hamburger menu on the homepage. The missing form label button on the Sign up page was due to a typo.The HTML symbol for hamburger menu has been added here to fix the bug for the hamburger menu label. 
 
 ### Hover on "What you can expect"
-During testing, I received fas feedback that the hover effect added to the boxes for the "What you can expect" section is misleading and implies that if you click on the boxes, something will happen. Therefore, this effect was deleted.
+During testing, I received feedback that the hover effect added to the boxes for the "What you can expect" section is misleading and implies that if you click on the boxes, something will happen. Therefore, this effect was deleted.
 
 ## <a name="unresolved">Unresolved</a>
 
