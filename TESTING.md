@@ -252,7 +252,7 @@ After my decision to move the text in the hero banner from the right side to the
 The initial test returned an error for the Youtube iFrame, a warning for the Gallery section and errors for the hamburger menu. The Youtube iFrame included an obsolete element <frameborder> which I ereased. Since the Gallery was set up as section, but wihtout text, the validation gave out a warining about missing headings for this section. Therefore I have changed the section into a div. Alternatively, the section could have used a hidden heading. The hamburger menu had an empty label and therefore I added a <span> to the menu-botton.
 
 ### Wave Issue
-The first result gave an error for a missing form label button on the Sign up page and an empty form label for the hamburger menu on the homepage. The missing form label button on the Sign up page was due to a typo.The HTML symbol for hamburger menu has been added here to fix the bug for the hamburger menu label. 
+The first result gave an error for a missing form label button on the Sign up page and an empty form label for the hamburger menu on the homepage. The missing form label button on the Sign up page was due to a typo.The HTML symbol for hamburger menu has been added here to fix the bug for the hamburger menu label.
 
 ### Hover on "What you can expect"
 During testing, I received feedback that the hover effect added to the boxes for the "What you can expect" section is misleading and implies that if you click on the boxes, something will happen. Therefore, this effect was deleted.
@@ -262,8 +262,7 @@ During testing, I received feedback that the hover effect added to the boxes for
 ---
 
 ### Page Speed
-The Lighthouse score for "Performance" on mobile is not satisfying. Since the page uses several images, which were also obtained in rather high quality, this made the page quite slow. Compressing the images did not bring the desired success. I converted all pictures to .webp and I resized the images from the gallery at the advice of my mentor, since they do not have to be displayed in the highest quality due to their smaller size. Still, the performance is low. 
+The Lighthouse score for "Performance" on mobile is not satisfying. Since the page uses several images, which were also obtained in rather high quality, this made the page quite slow. Compressing the images did not bring the desired success. I converted all pictures to .webp and I resized the images from the gallery at the advice of my mentor, since they do not have to be displayed in the highest quality due to their smaller size. Still, the performance is low.
 
 ### Parallax Scroll on mobile:
-Unfortunately, the Parallax Effect is not yet well supported on mobile and the [W3C](https://www.w3schools.com/howto/howto_css_parallax.asp) solution turned out to be less than ideal when tested on an iPhone device. However, I have already found good approaches for the future. For example [here](https://stackoverflow.com/questions/57219561/background-attachment-fixed-in-firefox-or-edge-versus-chrome/). 
-
+Unfortunately, the Parallax Effect is not yet well supported on mobile and the [W3C](https://www.w3schools.com/howto/howto_css_parallax.asp) solution turned out to be less than ideal when tested on an iPhone device. However, I have already found good approaches for the future. For example [here](https://stackoverflow.com/questions/57219561/background-attachment-fixed-in-firefox-or-edge-versus-chrome/).
