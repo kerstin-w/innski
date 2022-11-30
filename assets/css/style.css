@@ -98,8 +98,9 @@ p {
     padding: .5rem 0 .5rem;
 }
 
-.nav-logo-img {
-    max-width: 23rem;
+.nav-logo img {
+    width: 23rem;
+    height: fit-content;
 }
 
 .nav-menu {
@@ -325,8 +326,8 @@ p {
 }
 
 .location-inner-img>img {
-    height: auto;
-    max-width: 225px;
+    height: fit-content;
+    width: 225px;
     border-radius: 2rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2)
 }

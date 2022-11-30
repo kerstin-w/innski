@@ -145,7 +145,7 @@ The initial result was 90 but pointed out that loading time could be improved by
 <details>
 <summary>Location Page</summary>
 
-![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-desktop-location.jpg)
+![Screenshot of Lighthouse Desktop Validator Results for Location page](assets/testing/lh-mobile-location.jpg)
 </details>
 <details>
 <summary>Schedule Page</summary>
@@ -245,9 +245,6 @@ Originally, I created the navigation on mobile without hamburger menu and the me
 ### The pseudo-element
 The pseudo-element ::marker with content:"* " was added to a list on the schedule page. As it was found out during testing, the content wasn't supported by Safari. I decided to resolve this issue with a <span>. This was not an appropriate fix either and I solved it with a list style type and marker. Solution found [here](https://css-tricks.com/list-markers-and-string-styles/) 
 
-### Page Speed
-A big concern was the page speed. Since the page uses several images, which were also obtained in rather high quality, this made the page quite slow. Compressing the images did not bring the desired success and so I resized the images from the gallery at the advice of my mentor, since they do not have to be displayed in the highest quality due to their smaller size. 
-
 ### Animation Hero Text
 After my decision to move the text in the hero banner from the right side to the center, I had problems with the animation bouncing at the end to a position I didn't intend. I removed the Top % and Left % and centered the Hero text with Text Align. After that the animation behaved as expected. 
 
@@ -263,6 +260,9 @@ During testing, I received feedback that the hover effect added to the boxes for
 ## <a name="unresolved">Unresolved</a>
 
 ---
+
+### Page Speed
+The Lighthouse score for "Performance" on mobile is not satisfying. Since the page uses several images, which were also obtained in rather high quality, this made the page quite slow. Compressing the images did not bring the desired success. I converted all pictures to .webp and I resized the images from the gallery at the advice of my mentor, since they do not have to be displayed in the highest quality due to their smaller size. Still, the performance is low. 
 
 ### Parallax Scroll on mobile:
 Unfortunately, the Parallax Effect is not yet well supported on mobile and the [W3C](https://www.w3schools.com/howto/howto_css_parallax.asp) solution turned out to be less than ideal when tested on an iPhone device. However, I have already found good approaches for the future. For example [here](https://stackoverflow.com/questions/57219561/background-attachment-fixed-in-firefox-or-edge-versus-chrome/). 
